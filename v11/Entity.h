@@ -26,7 +26,7 @@ public:
     int GetMaxLife() const;
     int GetLife() const;
     int GetDamage() const;
-};
+    void Print() const;};
 
 
 #endif //V11_ENTITY_H

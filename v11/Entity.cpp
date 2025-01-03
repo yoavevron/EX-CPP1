@@ -3,6 +3,7 @@
 //
 
 #include "Entity.h"
+#include <iostream>
 
 
 Entity::Entity(const Entity& ent) :
@@ -35,4 +36,8 @@ int Entity::GetLife() const {
 
 int Entity::GetDamage() const {
     return Damage;
+}
+
+void Entity::Print() const {
+    std::cout << Name << " (" << Life << "/" << MaxLife << ") - " << Damage << std::endl;
 }
