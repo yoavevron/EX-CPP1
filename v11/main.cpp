@@ -21,11 +21,14 @@ int main() {
     Room room2 = Room("01", 8, 0, 4);
     Room room3 = Room("1", 8, 0, 4);
     Room room4 = Room("19", 8, 0, 4);
+    Room room5 = Room("191", 8, 0, 4);
     room1[1] = &room2;
     room3[9] = &room4;
-    (*room1[1]).Print();
-    (*room1[8]).Print();
-    (*room3[9]).Print();
+    room4[1] = &room5;
+//    (*room1[1]).Print();
+//    (*room1[8]).Print();
+//    (*room3[9]).Print();
+    (*(*room3[9])[1]).Print();
 
     return 0;
 }

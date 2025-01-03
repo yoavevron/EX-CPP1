@@ -33,12 +33,6 @@ Room::Room(const Room& other){
     }
 }
 
-//Room& Room::operator[](const Room& other){
-//    int cell = other.RoomId % 10;
-//    Rooms[cell] = other;
-//    return *this;
-//}
-
 Room* Room::operator[](int cell) const{
     return Rooms[cell];
 }
