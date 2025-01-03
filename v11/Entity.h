@@ -22,6 +22,9 @@ public:
     Entity& operator=(const Entity& ent);
     ~Entity() = default;
 
+    Entity operator+=(int value);
+    Entity operator-=(int value);
+
     std::string GetName() const;
     int GetMaxLife() const;
     int GetLife() const;
