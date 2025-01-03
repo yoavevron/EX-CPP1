@@ -1,3 +1,0 @@
-/mnt/c/advanced programming/EX-CPP1/cmake-build-wsl/CMakeFiles/EX_CPP1.dir
-/mnt/c/advanced programming/EX-CPP1/cmake-build-wsl/CMakeFiles/edit_cache.dir
-/mnt/c/advanced programming/EX-CPP1/cmake-build-wsl/CMakeFiles/rebuild_cache.dir

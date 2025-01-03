@@ -1,4 +1,0 @@
-/opt/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S "/mnt/c/advanced programming/EX-CPP1" -B "/mnt/c/advanced programming/EX-CPP1/cmake-build-wsl"
--- Configuring done (0.1s)
--- Generating done (0.3s)
--- Build files have been written to: /mnt/c/advanced programming/EX-CPP1/cmake-build-wsl
