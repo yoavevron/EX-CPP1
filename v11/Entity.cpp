@@ -63,6 +63,13 @@ Entity Entity::operator+=(int value){
     return *this;
 }
 
+Entity Entity::operator-=(const Entity& other){
+    if (other.Damage){
+        this->operator-=(other.GetDamage());
+    }
+    return *this;
+}
+
 Entity Entity::operator-=(int value){
     int newLife = this->GetLife() - value;
     if (newLife <= 0){

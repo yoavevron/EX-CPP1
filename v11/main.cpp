@@ -18,5 +18,17 @@ int main() {
     e.Print();
     e+=100;
     e.Print();
+    Entity e2("e2", 10, 5);
+    e -=e2;
+    e -=e2;
+    e -=e2;
+    e -=e2;
+    e -=e2;
+    e -=e2;
+    e -=e2;
+    e -=e2;
+    e -=e2;
+    e -=e2;
+    e.Print();
     return 0;
 }

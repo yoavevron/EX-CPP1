@@ -23,6 +23,7 @@ public:
     ~Entity() = default;
 
     Entity operator+=(int value);
+    Entity operator-=(const Entity& other);
     Entity operator-=(int value);
 
     std::string GetName() const;
