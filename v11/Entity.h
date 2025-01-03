@@ -25,6 +25,7 @@ public:
     Entity operator+=(int value);
     Entity operator-=(const Entity& other);
     Entity operator-=(int value);
+    bool operator==(const Entity& other) const;
 
     std::string GetName() const;
     int GetMaxLife() const;

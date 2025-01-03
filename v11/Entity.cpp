@@ -22,36 +22,6 @@ Entity& Entity::operator=(const Entity& ent) {
     return *this;
 }
 
-//Entity Entity::operator+=(int value) const{
-//    Entity e;
-//    e.Name = this->GetName();
-//    e.MaxLife = this->GetMaxLife();
-//    e.Damage = this->GetDamage();
-//    int newLife = this->GetLife() + value;
-//    if (newLife > e.MaxLife){
-//        e.Life = e.MaxLife;
-//    }
-//    else{
-//        e.Life = newLife;
-//    }
-//    return e;
-//}
-//
-//Entity Entity::operator-=(int value) const{
-//    Entity e;
-//    e.Name = this->GetName();
-//    e.MaxLife = this->GetMaxLife();
-//    e.Damage = this->GetDamage();
-//    int newLife = this->GetLife() - value;
-//    if (newLife <= 0){
-//        e.Life = 0;
-//    }
-//    else{
-//        e.Life = newLife;
-//    }
-//    return e;
-//}
-
 Entity Entity::operator+=(int value){
     int newLife = this->GetLife() + value;
     if (newLife > this->MaxLife){
@@ -79,6 +49,12 @@ Entity Entity::operator-=(int value){
         this->Life = newLife;
     }
     return *this;
+}
+
+bool Entity::operator==(const Entity& other) const{
+    int myValue = Life * Damage;
+    int hisValue = other.Life * other.Damage;
+    return myValue == hisValue;
 }
 
 std::string Entity::GetName() const{

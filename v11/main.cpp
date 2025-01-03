@@ -2,33 +2,17 @@
 #include "Entity.h"
 
 int main() {
-    std::cout << "Hello, World!!" << std::endl;
-    std::string s = "abc";
-    Entity e = Entity(s, 40, 3);
-    e.Print();
-    e-=10;
-    e.Print();
-    e+=50;
-    e.Print();
-    e-=30;
-    e.Print();
-    e-=100;
-    e.Print();
-    e+=2;
-    e.Print();
-    e+=100;
-    e.Print();
-    Entity e2("e2", 10, 5);
-    e -=e2;
-    e -=e2;
-    e -=e2;
-    e -=e2;
-    e -=e2;
-    e -=e2;
-    e -=e2;
-    e -=e2;
-    e -=e2;
-    e -=e2;
-    e.Print();
+    std::string name1 = "n1";
+    Entity e1 = Entity(name1, 40, 3);
+    e1.Print();
+    std::string name2 = "n2";
+    Entity e2 = Entity(name1, 50, 2);
+    e2.Print();
+    if (e1 == e2){
+        std::cout << "EQUAL" << std::endl;
+    }
+    else{
+        std::cout << "DIFFERENT" << std::endl;
+    }
     return 0;
 }
