@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Entity.h"
 #include "Room.h"
+#define DEBUG(x) std::cout << x << std::endl;
 
 int main() {
     std::string name1 = "n1";
@@ -16,7 +17,15 @@ int main() {
         std::cout << "DIFFERENT" << std::endl;
     }
 
-    Room room1 = Room(0, 8, 0, 4);
+    Room room1 = Room("0", 8, 0, 4);
+    Room room2 = Room("01", 8, 0, 4);
+    Room room3 = Room("1", 8, 0, 4);
+    Room room4 = Room("19", 8, 0, 4);
+    room1[1] = &room2;
+    room3[9] = &room4;
+    (*room1[1]).Print();
+    (*room1[8]).Print();
+    (*room3[9]).Print();
 
     return 0;
 }

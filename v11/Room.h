@@ -12,14 +12,18 @@
 
 class Room {
 private:
-    int RoomId;
+    std::string RoomId;
     int FireHealValue;
     Entity Monster;
-    Room* Rooms;
+    Room* Rooms[10];
 
 public:
-    explicit Room(int roomId=0, int fireHealValue=0, int monsterLife=0, int monsterDamage=0);
+    Room();
+    explicit Room(std::string roomId, int fireHealValue, int monsterLife, int monsterDamage);
     Room(const Room& other);
+    Room* operator[](int index) const;
+    Room*& operator[](int cell);
+    void Print() const;
 };
 
 

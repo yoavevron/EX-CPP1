@@ -3,20 +3,52 @@
 //
 
 #include "Room.h"
+Room::Room(){
+    RoomId = "";
+    FireHealValue = 0;
+//    Rooms = **Rooms[10];
+    for (int i = 0; i < 10; i++) {
+        Rooms[i] = nullptr;
+    }
+}
 
-Room::Room(int roomId, int fireHealValue, int monsterLife, int monsterDamage){
-    RoomId = roomId;
+Room::Room(std::string roomId, int fireHealValue, int monsterLife, int monsterDamage){
+    RoomId = std::move(roomId);
     FireHealValue = fireHealValue;
     if (monsterLife > 0){
         Entity monster = Entity("monster", monsterLife, monsterDamage);
         Monster = monster;
     }
-    Rooms = nullptr;
+    for (int i = 0; i < 10; i++) {
+        Rooms[i] = nullptr;
+    }
 }
 
 Room::Room(const Room& other){
     RoomId = other.RoomId;
     FireHealValue = other.FireHealValue;
     Monster = other.Monster;
-    Rooms = other.Rooms;
+    for (int i = 0; i < 10; i++) {
+        Rooms[i] = other.Rooms[i];
+    }
+}
+
+//Room& Room::operator[](const Room& other){
+//    int cell = other.RoomId % 10;
+//    Rooms[cell] = other;
+//    return *this;
+//}
+
+Room* Room::operator[](int cell) const{
+    return Rooms[cell];
+}
+
+Room*& Room::operator[](int cell) {
+    return Rooms[cell];
+}
+
+void Room::Print() const{
+    if (this) {
+        std::cout << "room id: " << RoomId << std::endl;
+    }
 }
