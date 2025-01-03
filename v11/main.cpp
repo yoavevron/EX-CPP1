@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Entity.h"
+#include "Room.h"
 
 int main() {
     std::string name1 = "n1";
@@ -14,5 +15,8 @@ int main() {
     else{
         std::cout << "DIFFERENT" << std::endl;
     }
+
+    Room room1 = Room(0, 8, 0, 4);
+
     return 0;
 }

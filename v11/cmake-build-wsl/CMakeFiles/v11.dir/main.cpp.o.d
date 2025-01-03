@@ -145,4 +145,5 @@ CMakeFiles/v11.dir/main.cpp.o: \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
  /usr/include/c++/13/bits/istream.tcc \
- /mnt/c/advanced\ programming/EX-CPP1/v11/Entity.h
+ /mnt/c/advanced\ programming/EX-CPP1/v11/Entity.h \
+ /mnt/c/advanced\ programming/EX-CPP1/v11/Room.h

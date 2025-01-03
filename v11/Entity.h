@@ -5,8 +5,8 @@
 #ifndef V11_ENTITY_H
 #define V11_ENTITY_H
 
-
 #include <string>
+#include <iostream>
 
 class Entity {
 private:
