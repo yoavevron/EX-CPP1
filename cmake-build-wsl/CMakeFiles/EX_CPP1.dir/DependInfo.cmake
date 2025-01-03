@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/mnt/c/advanced programming/EX-CPP1/Entity.cpp" "CMakeFiles/EX_CPP1.dir/Entity.cpp.o" "gcc" "CMakeFiles/EX_CPP1.dir/Entity.cpp.o.d"
+  "/mnt/c/advanced programming/EX-CPP1/Game.cpp" "CMakeFiles/EX_CPP1.dir/Game.cpp.o" "gcc" "CMakeFiles/EX_CPP1.dir/Game.cpp.o.d"
+  "/mnt/c/advanced programming/EX-CPP1/Room.cpp" "CMakeFiles/EX_CPP1.dir/Room.cpp.o" "gcc" "CMakeFiles/EX_CPP1.dir/Room.cpp.o.d"
   "/mnt/c/advanced programming/EX-CPP1/main.cpp" "CMakeFiles/EX_CPP1.dir/main.cpp.o" "gcc" "CMakeFiles/EX_CPP1.dir/main.cpp.o.d"
   "" "EX_CPP1" "gcc" "CMakeFiles/EX_CPP1.dir/link.d"
   )

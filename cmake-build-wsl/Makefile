@@ -129,6 +129,78 @@ EX_CPP1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/EX_CPP1.dir/build.make CMakeFiles/EX_CPP1.dir/build
 .PHONY : EX_CPP1/fast
 
+Entity.o: Entity.cpp.o
+.PHONY : Entity.o
+
+# target to build an object file
+Entity.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EX_CPP1.dir/build.make CMakeFiles/EX_CPP1.dir/Entity.cpp.o
+.PHONY : Entity.cpp.o
+
+Entity.i: Entity.cpp.i
+.PHONY : Entity.i
+
+# target to preprocess a source file
+Entity.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EX_CPP1.dir/build.make CMakeFiles/EX_CPP1.dir/Entity.cpp.i
+.PHONY : Entity.cpp.i
+
+Entity.s: Entity.cpp.s
+.PHONY : Entity.s
+
+# target to generate assembly for a file
+Entity.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EX_CPP1.dir/build.make CMakeFiles/EX_CPP1.dir/Entity.cpp.s
+.PHONY : Entity.cpp.s
+
+Game.o: Game.cpp.o
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EX_CPP1.dir/build.make CMakeFiles/EX_CPP1.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EX_CPP1.dir/build.make CMakeFiles/EX_CPP1.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EX_CPP1.dir/build.make CMakeFiles/EX_CPP1.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
+Room.o: Room.cpp.o
+.PHONY : Room.o
+
+# target to build an object file
+Room.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EX_CPP1.dir/build.make CMakeFiles/EX_CPP1.dir/Room.cpp.o
+.PHONY : Room.cpp.o
+
+Room.i: Room.cpp.i
+.PHONY : Room.i
+
+# target to preprocess a source file
+Room.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EX_CPP1.dir/build.make CMakeFiles/EX_CPP1.dir/Room.cpp.i
+.PHONY : Room.cpp.i
+
+Room.s: Room.cpp.s
+.PHONY : Room.s
+
+# target to generate assembly for a file
+Room.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/EX_CPP1.dir/build.make CMakeFiles/EX_CPP1.dir/Room.cpp.s
+.PHONY : Room.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... EX_CPP1"
+	@echo "... Entity.o"
+	@echo "... Entity.i"
+	@echo "... Entity.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
+	@echo "... Room.o"
+	@echo "... Room.i"
+	@echo "... Room.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

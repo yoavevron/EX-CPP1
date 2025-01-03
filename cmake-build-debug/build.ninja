@@ -55,6 +55,24 @@ build CMakeFiles/EX_CPP1.dir/main.cpp.obj: CXX_COMPILER__EX_CPP1_unscanned_Debug
   OBJECT_DIR = CMakeFiles\EX_CPP1.dir
   OBJECT_FILE_DIR = CMakeFiles\EX_CPP1.dir
 
+build CMakeFiles/EX_CPP1.dir/Entity.cpp.obj: CXX_COMPILER__EX_CPP1_unscanned_Debug C$:/advanced$ programming/EX-CPP1/Entity.cpp || cmake_object_order_depends_target_EX_CPP1
+  DEP_FILE = CMakeFiles\EX_CPP1.dir\Entity.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\EX_CPP1.dir
+  OBJECT_FILE_DIR = CMakeFiles\EX_CPP1.dir
+
+build CMakeFiles/EX_CPP1.dir/Room.cpp.obj: CXX_COMPILER__EX_CPP1_unscanned_Debug C$:/advanced$ programming/EX-CPP1/Room.cpp || cmake_object_order_depends_target_EX_CPP1
+  DEP_FILE = CMakeFiles\EX_CPP1.dir\Room.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\EX_CPP1.dir
+  OBJECT_FILE_DIR = CMakeFiles\EX_CPP1.dir
+
+build CMakeFiles/EX_CPP1.dir/Game.cpp.obj: CXX_COMPILER__EX_CPP1_unscanned_Debug C$:/advanced$ programming/EX-CPP1/Game.cpp || cmake_object_order_depends_target_EX_CPP1
+  DEP_FILE = CMakeFiles\EX_CPP1.dir\Game.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\EX_CPP1.dir
+  OBJECT_FILE_DIR = CMakeFiles\EX_CPP1.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target EX_CPP1
@@ -63,7 +81,7 @@ build CMakeFiles/EX_CPP1.dir/main.cpp.obj: CXX_COMPILER__EX_CPP1_unscanned_Debug
 #############################################
 # Link the executable EX_CPP1.exe
 
-build EX_CPP1.exe: CXX_EXECUTABLE_LINKER__EX_CPP1_Debug CMakeFiles/EX_CPP1.dir/main.cpp.obj
+build EX_CPP1.exe: CXX_EXECUTABLE_LINKER__EX_CPP1_Debug CMakeFiles/EX_CPP1.dir/main.cpp.obj CMakeFiles/EX_CPP1.dir/Entity.cpp.obj CMakeFiles/EX_CPP1.dir/Room.cpp.obj CMakeFiles/EX_CPP1.dir/Game.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\EX_CPP1.dir

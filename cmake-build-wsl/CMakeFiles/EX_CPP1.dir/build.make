@@ -86,18 +86,66 @@ CMakeFiles/EX_CPP1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EX_CPP1.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/advanced programming/EX-CPP1/main.cpp" -o CMakeFiles/EX_CPP1.dir/main.cpp.s
 
+CMakeFiles/EX_CPP1.dir/Entity.cpp.o: CMakeFiles/EX_CPP1.dir/flags.make
+CMakeFiles/EX_CPP1.dir/Entity.cpp.o: /mnt/c/advanced\ programming/EX-CPP1/Entity.cpp
+CMakeFiles/EX_CPP1.dir/Entity.cpp.o: CMakeFiles/EX_CPP1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/advanced programming/EX-CPP1/cmake-build-wsl/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/EX_CPP1.dir/Entity.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EX_CPP1.dir/Entity.cpp.o -MF CMakeFiles/EX_CPP1.dir/Entity.cpp.o.d -o CMakeFiles/EX_CPP1.dir/Entity.cpp.o -c "/mnt/c/advanced programming/EX-CPP1/Entity.cpp"
+
+CMakeFiles/EX_CPP1.dir/Entity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EX_CPP1.dir/Entity.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/advanced programming/EX-CPP1/Entity.cpp" > CMakeFiles/EX_CPP1.dir/Entity.cpp.i
+
+CMakeFiles/EX_CPP1.dir/Entity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EX_CPP1.dir/Entity.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/advanced programming/EX-CPP1/Entity.cpp" -o CMakeFiles/EX_CPP1.dir/Entity.cpp.s
+
+CMakeFiles/EX_CPP1.dir/Room.cpp.o: CMakeFiles/EX_CPP1.dir/flags.make
+CMakeFiles/EX_CPP1.dir/Room.cpp.o: /mnt/c/advanced\ programming/EX-CPP1/Room.cpp
+CMakeFiles/EX_CPP1.dir/Room.cpp.o: CMakeFiles/EX_CPP1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/advanced programming/EX-CPP1/cmake-build-wsl/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/EX_CPP1.dir/Room.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EX_CPP1.dir/Room.cpp.o -MF CMakeFiles/EX_CPP1.dir/Room.cpp.o.d -o CMakeFiles/EX_CPP1.dir/Room.cpp.o -c "/mnt/c/advanced programming/EX-CPP1/Room.cpp"
+
+CMakeFiles/EX_CPP1.dir/Room.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EX_CPP1.dir/Room.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/advanced programming/EX-CPP1/Room.cpp" > CMakeFiles/EX_CPP1.dir/Room.cpp.i
+
+CMakeFiles/EX_CPP1.dir/Room.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EX_CPP1.dir/Room.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/advanced programming/EX-CPP1/Room.cpp" -o CMakeFiles/EX_CPP1.dir/Room.cpp.s
+
+CMakeFiles/EX_CPP1.dir/Game.cpp.o: CMakeFiles/EX_CPP1.dir/flags.make
+CMakeFiles/EX_CPP1.dir/Game.cpp.o: /mnt/c/advanced\ programming/EX-CPP1/Game.cpp
+CMakeFiles/EX_CPP1.dir/Game.cpp.o: CMakeFiles/EX_CPP1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/advanced programming/EX-CPP1/cmake-build-wsl/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/EX_CPP1.dir/Game.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/EX_CPP1.dir/Game.cpp.o -MF CMakeFiles/EX_CPP1.dir/Game.cpp.o.d -o CMakeFiles/EX_CPP1.dir/Game.cpp.o -c "/mnt/c/advanced programming/EX-CPP1/Game.cpp"
+
+CMakeFiles/EX_CPP1.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/EX_CPP1.dir/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/advanced programming/EX-CPP1/Game.cpp" > CMakeFiles/EX_CPP1.dir/Game.cpp.i
+
+CMakeFiles/EX_CPP1.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/EX_CPP1.dir/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/advanced programming/EX-CPP1/Game.cpp" -o CMakeFiles/EX_CPP1.dir/Game.cpp.s
+
 # Object files for target EX_CPP1
 EX_CPP1_OBJECTS = \
-"CMakeFiles/EX_CPP1.dir/main.cpp.o"
+"CMakeFiles/EX_CPP1.dir/main.cpp.o" \
+"CMakeFiles/EX_CPP1.dir/Entity.cpp.o" \
+"CMakeFiles/EX_CPP1.dir/Room.cpp.o" \
+"CMakeFiles/EX_CPP1.dir/Game.cpp.o"
 
 # External object files for target EX_CPP1
 EX_CPP1_EXTERNAL_OBJECTS =
 
 EX_CPP1: CMakeFiles/EX_CPP1.dir/main.cpp.o
+EX_CPP1: CMakeFiles/EX_CPP1.dir/Entity.cpp.o
+EX_CPP1: CMakeFiles/EX_CPP1.dir/Room.cpp.o
+EX_CPP1: CMakeFiles/EX_CPP1.dir/Game.cpp.o
 EX_CPP1: CMakeFiles/EX_CPP1.dir/build.make
 EX_CPP1: CMakeFiles/EX_CPP1.dir/compiler_depend.ts
 EX_CPP1: CMakeFiles/EX_CPP1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/mnt/c/advanced programming/EX-CPP1/cmake-build-wsl/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable EX_CPP1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/mnt/c/advanced programming/EX-CPP1/cmake-build-wsl/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable EX_CPP1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EX_CPP1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
