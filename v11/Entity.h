@@ -6,17 +6,26 @@
 #define V11_ENTITY_H
 
 
-#include <string> // For std::string
+#include <string>
 
 class Entity {
 private:
     std::string Name;
     int MaxLife;
+    int Life;
     int Damage;
 
 public:
-    Entity();
-    Entity(std::string name, int maxLife, int damage);
+    explicit Entity(std::string name="", int maxLife=0, int damage=0, int life=0):
+        Name((std::move(name))), MaxLife(maxLife), Damage(damage), Life(maxLife){};
+    Entity(const Entity& ent);
+    Entity& operator=(const Entity& ent);
+    ~Entity() = default;
+
+    std::string GetName() const;
+    int GetMaxLife() const;
+    int GetLife() const;
+    int GetDamage() const;
 };
 
 
